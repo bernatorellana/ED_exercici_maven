@@ -1,6 +1,6 @@
 # Introducció a Maven
 
-Al pràctic anterior vau compilar i executar el programa `generador-pdf` **a mà**: vau buscar i baixar un per un tots els `.jar` necessaris i vau escriure el *classpath* a les comandes `javac` i `java`. Funciona, però és pesat i fràgil: quins jars calen exactament? quina versió? i si una llibreria en necessita una altra?
+A sessions anteriors vàrem compilar i executar el programa `generador-pdf` **amb Ant-Netbeans**: buscant i baixant un per un tots els `.jar` necessaris i afegint-los al *classpath* a les comandes `javac` i `java` (des de les opcions de Netbeans). Funciona, però és pesat i fràgil: quins jars calen exactament? quina versió? i si una llibreria en necessita una altra?
 
 En aquest document farem el mateix projecte amb **Apache Maven**, una eina de construcció (*build tool*) que s'encarrega de:
 
